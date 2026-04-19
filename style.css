@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+    font-size: 18px;
+    outline: none;
+}
+body{
+    background-color:white;
+    color: white;
+}
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 22px 140px;
+    color: white;
+    align-items: center;
+    position: relative;
+    margin-bottom: 13%;
+}
+.header-logo h1, span{
+    font-size: 32px;
+}
+.header-logo span{
+    color: rgb(207, 114, 14);
+}
+nav li{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+ header a:hover{
+    color:  rgb(207, 114, 14);
+    border-bottom: 2px solid  rgb(207, 114, 14);
+}
+.btn button{
+    background-color:  rgb(207, 114, 14);
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.btn{
+    transition:all 0.3s ease;
+} 
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.btn a:hover{
+    color: white;
+    transform: scale(1.1); 
+}
+main{
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./image/resto\ img.jpg");
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+}
+#Acceuil h1{
+    font-size: 45px;
+    text-align: center;
+    width: 650px;
+    margin-left:350px;
+    font-weight: bold;
+}
+#Acceuil h1:hover{
+    background-color: rgb(44, 94, 174);
+}
+#Acceuil p{
+    line-height: 1.5rem;
+    margin-left: 18%;
+}
+.menu {
+    background-color: rgb(207, 114, 14);
+    border-color: rgb(207, 114, 14);
+    margin-right: 16px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.reservation {
+    background-color: rgba(22, 88, 210, 0.938);
+    border-color:  rgba(27, 77, 171, 0.326);
+}
+.reservation a{
+     text-decoration: none;
+     color: white;
+}
+.btn-acceuil{
+    margin-top: 16px;
+    margin-left: 490px;
+    cursor: pointer;
+    display: inline-block;
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+.btn-acceuil button{
+    padding: 8px;
+    border-radius: 6px;
+}
+.btn-acceuil .reservation:hover{
+    transform: scale(1.1);
+}
+.btn-acceuil .menu:hover{
+    transform: scale(1.1);
+}
+
